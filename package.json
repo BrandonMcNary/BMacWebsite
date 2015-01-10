@@ -1,0 +1,27 @@
+{
+  "main": "server/server.js",
+  "name": "Node-Angular-Client",
+  "description": "angular, express, node.js",
+  "version": "0.0.1",
+  "private": true,
+  "contributors": "Brandon McNary <bmcnary@live.com>",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "postinstall": "node node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+    "bower": "^1.3.4",
+    "express": "~3.4.7",
+    "express-validator": "~1.0.1",
+    "jshint": "~2.5.2",
+    "requirejs": "^2.1.14"
+  },
+  "devDependencies": {
+    "assetmanager": "^0.1.1"
+  },
+  "author": "Brandon McNary"
+}

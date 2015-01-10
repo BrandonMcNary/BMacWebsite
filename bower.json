@@ -1,0 +1,24 @@
+{
+  "name": "angular-client",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.2.26",
+    "angular-resource": "1.2.26",
+    "angular-cookies": "1.2.26",
+    "angular-mocks": "1.2.26",
+    "angular-route": "1.2.26",
+    "angular-ui-router": "~0.2.11",
+    "jquery": "~2.0.3",
+    "requirejs": "latest",
+    "requirejs-domready": "latest",
+    "ng-Fx": "~0.4.2",
+    "ngFx": "~1.0.1",
+    "angular-foundation": "~0.3.0",
+    "angular-google-maps": "~1.1.8",
+    "angular-tour": "~0.1.1",
+    "angular-bootstrap": "~0.11.0"
+  },
+  "resolutions":{
+  "angular": "1.2.26"
+}
+}
