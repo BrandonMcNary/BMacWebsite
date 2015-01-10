@@ -8,10 +8,11 @@ module.exports = function(app){
   var fullpath = path.join(__dirname, '../public');
   // app.use(bodyParser.json());
   // app.use(bodyParser.urlencoded());
+  console.log('fullPath', fullpath);
   app.use(express.logger('dev'));
   // limit set to 5mb for the purpose of upload CSV files
-  app.use(express.urlencoded({limit: '50mb'}));
-  app.use(express.json({limit: '50mb'}));
+  app.use(express.urlencoded());
+  app.use(express.json());
   app.use(express.methodOverride());
   app.use(express.static(fullpath));
   app.use(app.router);
